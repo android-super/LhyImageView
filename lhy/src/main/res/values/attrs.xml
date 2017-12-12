@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LhyRoundImageView">
+        <attr name="crop_type" format="enum|reference">
+            <enum name="circle" value="0" />
+            <enum name="round_all" value="1" />
+            <enum name="round_top_left" value="2" />
+            <enum name="round_top_right" value="3" />
+            <enum name="round_bottom_left" value="4" />
+            <enum name="round_bottom_right" value="5" />
+            <enum name="round_top_both" value="6" />
+            <enum name="round_left_both" value="7" />
+            <enum name="round_bottom_both" value="8" />
+            <enum name="round_right_both" value="9" />
+            <enum name="round_top_left_other" value="10" />
+            <enum name="round_top_right_other" value="11" />
+            <enum name="round_bottom_left_other" value="12" />
+            <enum name="round_bottom_right_other" value="13" />
+        </attr>
+        <attr name="crop_border_is_show" format="boolean|reference" />
+        <attr name="crop_border_width" format="dimension|reference" />
+        <attr name="crop_border_color" format="color|reference" />
+        <attr name="crop_radius" format="dimension|reference" />
+    </declare-styleable>
+</resources>

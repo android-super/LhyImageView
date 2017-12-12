@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LhyImageView.iml" filepath="$PROJECT_DIR$/LhyImageView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lhy/lhy.iml" filepath="$PROJECT_DIR$/lhy/lhy.iml" />
+      <module fileurl="file://E:\good_project\LhyImageView\lhy\round_image.iml" filepath="E:\good_project\LhyImageView\lhy\round_image.iml" />
+    </modules>
+  </component>
+</project>
