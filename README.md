@@ -1,18 +1,19 @@
 # LhyImageView
-自定义圆形，圆角，带边框ImageView
+## 自定义圆形，圆角，带边框ImageView
 
-自定义属性有以下几种：\
-circle, round_all,\
-round_top_left,round_top_right, round_bottom_left, round_bottom_right,\
-round_top_both, round_left_both, round_bottom_both,round_right_both,\
-round_top_left_other, round_top_right_other,round_bottom_left_other, round_bottom_right_other
+### 自定义属性有以下几种：
+```
+ circle, round_all,
+ round_top_left,round_top_right, round_bottom_left, round_bottom_right,
+ round_top_both, round_left_both, round_bottom_both,round_right_both,
+ round_top_left_other, round_top_right_other,round_bottom_left_other, round_bottom_right_other
+```
+### 边框颜色设置 crop_border_color
+### 边框宽度设置 crop_border_width
+### 边框是否显示 crop_border_is_show
+### 圆角大小设置 crop_radius
 
-边框颜色设置 crop_border_color\
-边框宽度设置 crop_border_width\
-边框是否显示 crop_border_is_show\
-圆角大小设置 crop_radius
-
-默认图片格式是 center_crop
+### 默认图片格式是 center_crop
 
 如:
 ```
