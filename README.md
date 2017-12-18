@@ -15,7 +15,8 @@ round_top_left_other, round_top_right_other,round_bottom_left_other, round_botto
 默认图片格式是 center_crop
 
 如:
-<pre><code><com.lhy.view.LhyRoundImageView
+```
+<com.lhy.view.LhyRoundImageView
         android:id="@+id/lhyRoundImageView"
         android:layout_width="200dp"
         android:layout_height="100dp"
@@ -24,4 +25,4 @@ round_top_left_other, round_top_right_other,round_bottom_left_other, round_botto
         app:crop_border_width="3dp"
         app:crop_radius="15dp"
         app:crop_type="round_top_right_other" />
-        </code></pre>
+```
