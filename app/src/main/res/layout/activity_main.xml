@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_gravity="center"
     android:gravity="center"
     android:orientation="vertical"
@@ -18,5 +18,25 @@
         app:crop_border_width="3dp"
         app:crop_radius="15dp"
         app:crop_type="round_top_right_other" />
+
+    <com.lhy.view.LhyProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        app:progress_color="#868547"
+        app:progress_normal_color="#353694"
+        app:progress_size="4dp" />
+
+    <com.lhy.view.LhySeekProgress
+        android:id="@+id/seek_progress"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        app:seek_normal_color="#868547"
+        app:seek_progress_color="#353694"
+        app:seek_progress_size="8dp" />
 
 </LinearLayout>

@@ -22,4 +22,16 @@
         <attr name="crop_border_color" format="color|reference" />
         <attr name="crop_radius" format="dimension|reference" />
     </declare-styleable>
+
+    <declare-styleable name="LhyProgressBar">
+        <attr name="progress_normal_color" format="color|reference" />
+        <attr name="progress_size" format="dimension|reference" />
+        <attr name="progress_color" format="color|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="LhySeekProgress">
+        <attr name="seek_normal_color" format="color|reference" />
+        <attr name="seek_progress_size" format="dimension|reference" />
+        <attr name="seek_progress_color" format="color|reference" />
+    </declare-styleable>
 </resources>
